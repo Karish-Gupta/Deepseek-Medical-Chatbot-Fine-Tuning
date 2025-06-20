@@ -31,7 +31,7 @@ fine_tuned_model = Model(
    train_dataset=train_dataset, 
    test_dataset=test_dataset, 
    lr=5e-5, 
-   num_epochs=3, 
+   num_epochs=10, 
    weight_decay=0.01, 
    batch_size=2, 
 )
